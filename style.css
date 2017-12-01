@@ -1,3 +1,6 @@
+@import reset.scss;
+
+
 @font-face
 {
 	font-family: 'Amarillo';
@@ -58,6 +61,11 @@ p
 	text-align: justify;
 	justify-content: space-around;
 	margin-top: 5%;
+
+	a
+	{
+		color: white;
+	}
 }
 
 img[alt="lisere"]

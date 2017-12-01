@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'Amarillo';
+  src: url("polices/Amarillo/Amarillo.otf") format("otf"), url("polices/Amarillo/Amarillo.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'dayrom';
+  src: url("polices/dayrom/dayrom-webfont.eot");
+  src: url("polices/dayrom/dayrom-webfont.eot?#iefix") format("embedded-opentype"), url("polices/dayrom/dayrom-webfont.woff2") format("woff2"), url("polices/dayrom/dayrom-webfont.woff") format("woff"), url("polices/dayrom/dayrom-webfont.ttf") format("truetype"), url("polices/dayrom/dayrom-webfont.svg#webfontregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 23, ../sass/style.scss */
+body {
+  text-align: center;
+  background-color: #e6e6ff;
+}
+
+/* line 29, ../sass/style.scss */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #1f3d7a;
+}
+
+/* line 37, ../sass/style.scss */
+img[alt="photo_de_profil"] {
+  width: 130px;
+  height: 150px;
+  border-radius: 8px;
+  border: 5px solid #ddd;
+  align-self: flex-end;
+}
+
+/* line 46, ../sass/style.scss */
+h1 {
+  margin-top: -5%;
+  margin-bottom: 5%;
+  font-family: 'Amarillo';
+  font-size: 2rem;
+}
+
+/* line 54, ../sass/style.scss */
+p {
+  margin-top: -1%;
+  font-size: 1.2em;
+}
+
+/* line 60, ../sass/style.scss */
+.conteneur {
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+/* line 67, ../sass/style.scss */
+.conteneur a {
+  text-decoration: none;
+}
+/* line 72, ../sass/style.scss */
+.conteneur h2 {
+  color: #990000;
+  text-align: center;
+  margin-bottom: 5%;
+  border: solid 2px #99002F;
+  border-radius: 20px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #f2f2f2;
+}
+/* line 84, ../sass/style.scss */
+.conteneur #cursus {
+  padding-top: 7%;
+  padding-bottom: 7.5%;
+}
+
+/* line 91, ../sass/style.scss */
+.conteneur2 {
+  display: flex;
+  text-align: justify;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 20%;
+  margin-top: 20%;
+}
+/* line 100, ../sass/style.scss */
+.conteneur2 h2 {
+  color: #990000;
+  text-align: center;
+  margin-bottom: 5%;
+  border: solid 2px #99002F;
+  border-radius: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #f2f2f2;
+}
+/* line 114, ../sass/style.scss */
+.conteneur2 li {
+  list-style-type: square;
+  margin-bottom: 2.5%;
+  margin-top: 10%;
+}
+/* line 121, ../sass/style.scss */
+.conteneur2 ul {
+  margin: auto;
+}
+
+/* line 127, ../sass/style.scss */
+img[alt="lisere"] {
+  align-self: flex-start;
+  width: 10%;
+  height: 500px;
+  margin-left: -50px;
+  margin-top: -20px;
+  border-radius: 20px;
+  float: left;
+}
+
+/* line 138, ../sass/style.scss */
+.bloc {
+  margin-right: 1.5%;
+}
+/* line 142, ../sass/style.scss */
+.bloc li {
+  margin-bottom: 5%;
+}
+
+/* line 148, ../sass/style.scss */
+.gras, h2, p {
+  font-weight: bold;
+  font-family: 'dayrom';
+  color: #1f3d7a;
+}
+
+/* line 155, ../sass/style.scss */
+a:hover {
+  text-decoration: underline;
+  color: #b30000;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* line 164, ../sass/style.scss */
+a:active {
+  background-color: #FFCC66;
+}
+
+/* line 169, ../sass/style.scss */
+a:focus {
+  background-color: #FFCC66;
+}
+
+/* line 174, ../sass/style.scss */
+a:visited {
+  color: #595959;
+  /* Appliquer une couleur grise */
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 181, ../sass/style.scss */
+  nav {
+    margin-top: 20%;
+  }
+
+  /* line 186, ../sass/style.scss */
+  header {
+    margin-top: -50px;
+  }
+
+  /* line 191, ../sass/style.scss */
+  h1 {
+    font-size: 2em;
+  }
+
+  /* line 196, ../sass/style.scss */
+  .conteneur {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 204, ../sass/style.scss */
+  .conteneur {
+    flex-direction: column;
+  }
+}

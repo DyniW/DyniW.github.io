@@ -3,7 +3,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
 		<title>Mon CV</title>
 	</head>
 
@@ -11,49 +11,102 @@
 		<header>
 			<img src="images/chad.jpeg" alt="photo_de_profil" />
 			<h1>Warren Madhow</h1>
-			<p>Developpeur Informatique</p>
+			<p>Développeur Informatique</p>
 		</header>
 
-		<section id="conteneur">
-			<aside>
-				<img src="images/sophia-bush.png" alt="lisere">	
-			</aside>
+
+		<aside>
+				<img src="images/lisere.png" alt="lisere">	
+		</aside>
+
+		<section class="conteneur">
 
 			<div class="bloc">
-				<h2>EXPERIENCE PROFESSIONNELLE</h2><br />
-		 
-				<span class="gras">2007</span> - Stage en entreprise d'imprimerie | Blueprint (Madagascar)<br /><br />
+				<a href="#experiences"><h2>EXPERIENCE PROFESSIONNELLE</h2><br /></a>
+		 		
+		 		<ul>
+					<li><span class="gras">2007</span> - Stage en entreprise d'imprimerie | Blueprint (Madagascar)<br /></li>
 
-				<span class="gras">2014</span> - Street Marketing | Posterscope<br /><br />
+					<li><span class="gras">2014</span> - Street Marketing | Posterscope<br /></li>
 
-				<span class="gras">Juillet à septembre 2015</span> - Stage d’informatique en entreprise | Horus Paris<br />
+					<li><span class="gras">Juillet 2016 à septembre 2017</span> - Stages d’informatique en entreprise | Horus Paris<br /></li>
+				</ul>
 			</div>
 
 			<div class="bloc">
 				<h2>COMPETENCES</h2><br />
 
-				<span class="gras">Langages de programmation</span><br />
-				PHP, HTML, CSS, C, Java, Python, Pascal, Scheme<br />
+				<ul>
+					<li><span class="gras">Langages de programmation</span><br />
+					PHP, HTML, CSS, C, Java, Python, Pascal, Scheme<br /></li>
 
-				<br /><span class="gras">Système de Gestion de Bases de Données</span><br />
-				MySQL, Interbase, Firebird<br />
+					<li><span class="gras">Système de Gestion de Bases de Données</span><br />
+					MySQL, Interbase, Firebird<br /></li>
 
-				<br /><span class="gras">Divers</span><br />
-				CMS WordPress, Github, Word, Excel, Powerpoint, Notions sur les Systèmes et Réseaux<br />
+					<li><span class="gras">Divers</span><br />
+					CMS WordPress, Github, Word, Excel, Powerpoint, Notions sur les Systèmes et Réseaux<br /></li>
+				</ul>
 			</div>
 
 			<div class="bloc">
-				<h2>CURSUS</h2><br />
+				<h2 id="cursus">CURSUS</h2><br />
 
-				<span class="gras">Juin 2012 | Baccalauréat General Scientifique</span><br />
-				Lycée Romain Rolland (Ivry-Sur-Seine)<br /><br />
+				<ul>
+					<li><span class="gras">Juin 2012 | Baccalauréat General Scientifique</span><br />
+					Lycée Romain Rolland (Ivry-Sur-Seine)<br /></li>
 
-				<span class="gras">2012 - 2014 | Licence Sciences et Technologies Niveau I</span><br />
-				Université Pierre et Marie Curie (Paris VI)<br /><br />
+					<li><span class="gras">2012 - 2014 | Licence Sciences et Technologies Niveau I</span><br />
+					Université Pierre et Marie Curie (Paris VI)<br /></li>
 
-				<span class="gras">2015 | BTS Services Informatiques aux Organisations</span><br />
-				IRIS Paris<br /
->			</div>
+					<li><span class="gras">2015-2017 | BTS Services Informatiques aux Organisations</span><br />
+					IRIS Paris<br /></li>
+				</ul>
+			</div>
 		</section>
+
+		<div class="conteneur2">
+			<h2 id="experiences">DETAIL DES EXPERIENCES</h2>
+
+			<ul>
+				<li>
+					Stagiaire développement application web<br/>
+					Bimsys Consulting | Novembre 2016 à décembre 2016<br/>
+					<span class="gras">Missions effectuées :</span><br/>
+					Elaboration d'un intranet collaboratif pour la gestion de projets au sein de l'entreprise<br />
+					Site web de l'entreprise :<a href="http://www.bimsys.fr">http://www.bimsys.fr</a>
+				</li>
+
+				<li>
+					Stagiaire développement d’applications logiciels<br/>
+					Datronic | Juillet 2016 à août 2016<br/>
+					<span class="gras">Missions effectuées :</span><br/>
+					Développement d’applications sous Delphi en langage Pascal<br/>
+					Test de fonctionnalités<br/>
+					Site web de l'entreprise :
+					<a href="http://datronic.fr">http://datronic.fr</a>
+				</li>
+
+				<li>
+					Stagiaire développement Web Wordpress<br/>
+					Horus Paris | Juillet 2015 à septembre 2015<br/>
+					<span class="gras">Missions effectuées :</span><br/>
+					Développement de nouvelles fonctionnalités sous CMS WordPress<br/>
+					Personnalisation des thèmes et des plug-ins &amp; amélioration de l’aspect responsive<br/>
+					Documentation de process<br/>
+					Références : http://www.horus-paris.fr, https://www.corporate.horus-paris.fr<br/>
+					Site web de l'entreprise :
+					<a href="http://www.horus-paris.fr">http://www.horus-paris.fr</a>
+				</li>
+
+				<li>
+					Street marketing<br/>
+					Posterscope | 2013 à 2014<br/>
+					<span class="gras">Missions effectuées :</span><br/>
+					Distribution de brochures et prospectus<br/>
+					Site web de l'entreprise :
+					<a href="http://www.horus-paris.fr">http://www.posterscope.com</a>
+				</li>
+			</ul>
+		</div>
 	</body>
 </html>

@@ -1,0 +1,208 @@
+@import "reset.scss";
+
+@font-face
+{
+	font-family: 'Amarillo';
+	src: url('polices/Amarillo/Amarillo.otf') format('otf'),
+		 url('polices/Amarillo/Amarillo.ttf') format('truetype');
+}
+
+@font-face 
+{
+    font-family: 'dayrom';
+    src: url('polices/dayrom/dayrom-webfont.eot');
+    src: url('polices/dayrom/dayrom-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom/dayrom-webfont.woff2') format('woff2'),
+         url('polices/dayrom/dayrom-webfont.woff') format('woff'),
+         url('polices/dayrom/dayrom-webfont.ttf') format('truetype'),
+         url('polices/dayrom/dayrom-webfont.svg#webfontregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+	text-align: center;
+	background-color: #e6e6ff;
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	color: #1f3d7a;
+}
+
+img[alt="photo_de_profil"]
+{
+    width: 130px;
+    height: 150px;
+    border-radius: 8px;
+    border: 5px solid #ddd;
+    align-self: flex-end;
+}
+
+h1
+{
+	margin-top: -5%;
+	margin-bottom: 5%;
+	font-family: 'Amarillo';
+	font-size: 2rem;
+}
+
+p
+{
+	margin-top: -1%;
+	font-size: 1.2em;
+}
+
+.conteneur
+{
+	display: flex;
+	text-align: justify;
+	justify-content: space-around;
+	margin-top: 5%;
+
+	a
+	{
+		text-decoration: none;
+	}
+
+	h2
+	{
+		color: #990000;
+		text-align: center;
+		margin-bottom: 5%;
+		border: solid 2px #99002F;
+		border-radius: 20px;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		background-color: #f2f2f2;
+	}
+
+	#cursus
+	{
+		padding-top: 7%;
+		padding-bottom: 7.5%;
+	}
+}
+
+.conteneur2
+{
+	display: flex;
+	text-align: justify;
+	justify-content: space-around;
+	flex-direction: column;
+	margin: 20%;
+	margin-top: 20%;
+
+	h2
+	{
+		color: #990000;
+		text-align: center;
+		margin-bottom: 5%;
+		border: solid 2px #99002F;
+		border-radius: 20px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 25px;
+		padding-right: 25px;
+		background-color: #f2f2f2;
+	}
+
+	li
+	{
+		list-style-type: square;
+		margin-bottom: 2.5%;
+		margin-top: 10%;
+	}
+
+	ul
+	{
+		margin: auto;
+	}
+}
+
+img[alt="lisere"]
+{
+	align-self: flex-start;
+    width: 10%;
+    height: 500px;
+    margin-left: -50px;
+    margin-top: -20px;
+    border-radius: 20px;
+    float: left;
+}
+
+.bloc
+{
+	margin-right: 1.5%;
+
+	li
+	{
+		margin-bottom: 5%;
+	}
+}
+
+.gras, h2, p
+{
+	font-weight: bold;
+	font-family: 'dayrom';
+	color: #1f3d7a
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: #b30000;
+   font-size: 1.5em;
+   font-style: italic;
+   font-weight: bold;
+}
+
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: #FFCC66;
+}
+
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #595959; /* Appliquer une couleur grise */
+}
+
+@media screen and (max-width: 1024px)
+{
+    nav
+    {
+        margin-top: 20%;
+    }
+
+    header
+    {
+        margin-top: -50px;
+    }
+
+    h1
+    {
+        font-size: 2em;
+    }
+
+    .conteneur
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    .conteneur
+    {
+        flex-direction: column;
+    }
+}
